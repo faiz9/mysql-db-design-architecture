@@ -1,0 +1,42 @@
+Name: Syed Faiz Student ID # 921438645
+Discord Invite Link: https://discord.gg/xhEnYjV4PE
+Replit Invite Link:  https://replit.com/join/mfwddisqnp-faiz9
+
+Business Rules: 
+- Find all appointments where customer payment method was installment plan and the amount was higher than $100. 
+- Find names of all customers who have appointment at multiple locations. 
+- Find names of all customers older than 25 years. 
+- Insert into receipts, payment amount, and update payment type each time customer makes payment for the visit. 
+- For all accounts, if account type is employer apply 20% discount to the bill. 
+- Find names of all employees whose salary is over $10000 and are employed for over 3 years.
+- List names of all employees with seniority based on their date of hire in ascending order.
+- Update medical records for customer after the appointment.
+- For all services used using employer account, expediate them by default at no extra cost.
+- Find the average salary and seniority of all employees.
+- Order supplies (add 100 to quantity) each time when quantity of gloves, syringes, and masks are down to 50.
+- List all locations with address and the names of the owners associated with the location.
+- List the names of all customers belonging to only one location.
+- Find the location with highest and lowest revenue and list them in descending order.
+- List location with highest number of appointments and lowest number of appointments in descending order.
+- List name of patient with highest number of appointments made.
+- List name of patient with highest number of monies paid.
+
+Commands: 
+•\find_appointment_payment_method<installment> will show all appointments where customer or patient used installment plan to pay for the visit and amount was greater than $100.
+•\names_customers<appointment>multiple<locations> shows names of customers who have visited/had appointments at multiple locations or branches.
+•\names_customers<dob >= 25> will show names of all customers/patients who are 25 years of age and older.
+•\update_receipt_payment_amount_type<appointment> will add a record to receipt, payment amount, and update payment type each time customer/patient pays for their visit.
+•\apply_discount_account<employer> will apply 20% discount to all the transactions done using employer account.
+•\nameemployees<salary >=1000><doh >= 3 years> shows names of all employees with salary of 10000 or over and have worked at the job for 3 years or more.
+•\name_employees<senoirity> will show names of all employees with seniority with date of hire in ascending order.
+•\update_medicalrecords<appointment> will update medical records for the customer after visit or appointment.
+•\update-services-expediate<account>-role-employer will expediate all services when employer account is used.
+•\average-employee<salary><seniority> will show the average salary and seniority of all employees.
+•\update-<supplies>-display-<supplies> will order supplies each time when their down to quantity 50.
+•\names_locations_address<owner> will show names of owners associated with each location.
+•\names_customers<locationname> will show names of all customers belonging to only one location.
+•\revenue-stats shows location name with highest and lowest revenue in descending order.
+•\appointments-stats displays location name with highest appointments and lowest appointments in descending order.
+•\name_customer_highest_number_of_appointment shows name of customer/patient will highest number of appointments or visits.
+•\name_customer_highest_number_of_payment shows the name of customer/patient who has spent the most money.
+
